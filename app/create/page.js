@@ -52,8 +52,8 @@ export default function Home() {
   return (
     <main className="flex min-h-[80vh] flex-col items-center justify-between pt-24">
       <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
-        <form class="space-y-6">
-          <h5 class="text-xl font-medium text-gray-900 dark:text-white">Sign in to our platform</h5>
+        <form class=" flex flex-col justify-center items-center gap-6">
+          <h5 class="text-xl font-medium text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Create an NFT</h5>
           <input type="text" id="default-input" placeholder='Give your NFT name' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             onChange={(e) => { setName(e.target.value) }}
           />
