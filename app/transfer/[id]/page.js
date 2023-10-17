@@ -97,7 +97,7 @@ export default function Home({ params }) {
 
 
   return (
-    <main className="flex min-h-[80vh] flex-col items-center justify-between p-24">
+    <main className="flex min-h-[70vh] flex-col items-center justify-between p-24">
       <div className="flex relative flex-col h-48 w-full items-center gap-4 justify-start lg:justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
 
         <div key={1} class="w-full max-w-sm z-20 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700">

@@ -44,7 +44,7 @@ export default function Home() {
   }, [data]);
 
   return (
-    <main className="flex min-h-[80vh] flex-col items-center justify-between p-24">
+    <main className="flex min-h-[70vh] flex-col items-center justify-between p-24">
       <div className="flex flex-col h-48 w-full items-center gap-4 justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
         {nftDataArray.length > 0 ?
           <div className=' grid grid-cols-2 md:grid-cols-3 gap-4 relative'>
