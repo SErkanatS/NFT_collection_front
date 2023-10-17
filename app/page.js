@@ -68,7 +68,7 @@ export default function Home() {
 
           <div className=' flex flex-col'>
             <div className='text-center'>
-              <h1 className="mb-4 font-extrabold text-gray-900 dark:text-white text-3xl">You don't have any NFTs yet<br /><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Do you want to create some?</span></h1>
+              <h1 className="mb-4 font-extrabold text-gray-900 text-3xl">You don't have any NFTs yet<br /><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Do you want to create some?</span></h1>
             </div>
           </div>
 
