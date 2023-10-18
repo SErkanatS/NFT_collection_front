@@ -42,12 +42,12 @@ export default function RootLayout({ children }) {
 								<ConnectKitButton />
 							</nav>
 							<div className=' flex-grow relative unset'>
-								<div class="absolute z-10 top-0 -left-4 w-36 h-36 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-								<div class="absolute z-10 bottom-52 right-44 w-36 h-36 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
-								<div class="absolute z-10 top-0 -right-4 w-36 h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-								<div class="absolute z-10 bottom-44 -left-16 w-36 h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-								<div class="absolute z-10 bottom-20 left-20 w-36 h-36 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
-								<div class="absolute z-10 top-36 right-72 w-36 h-36 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+								<div className="absolute z-10 top-0 -left-4 w-36 h-36 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+								<div className="absolute z-10 bottom-52 right-44 w-36 h-36 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+								<div className="absolute z-10 top-0 -right-4 w-36 h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+								<div className="absolute z-10 bottom-44 -left-16 w-36 h-36 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+								<div className="absolute z-10 bottom-20 left-20 w-36 h-36 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+								<div className="absolute z-10 top-36 right-72 w-36 h-36 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
 								{children}</div>
 						</div>
 					</body>

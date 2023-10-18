@@ -49,16 +49,16 @@ export default function Home() {
         {nftDataArray.length > 0 ?
           <div className=' grid grid-cols-2 md:grid-cols-3 gap-4 relative'>
             {nftDataArray.map((nftData, index) => (
-              <div key={index} class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700">
-                <img class="p-8 rounded-xl" src={nftData.image} alt={`IPFS Image ${index}`} />
-                <div class="px-5 pb-5">
+              <div key={index} className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-600 dark:border-gray-700">
+                <img className="p-8 rounded-xl" src={nftData.image} alt={`IPFS Image ${index}`} />
+                <div className="px-5 pb-5">
 
-                  <div class="flex items-center justify-between">
+                  <div className="flex items-center justify-between">
                     <div>
-                      <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{nftData.name}</h5>
+                      <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{nftData.name}</h5>
                       <p className="text-gray-500 dark:text-gray-400">{nftData.description}</p>
                     </div>
-                    <Link href={`transfer/${index}`} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Transfer</Link>
+                    <Link href={`transfer/${index}`} className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Transfer</Link>
                   </div>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function Home() {
 
         }
 
-        <Link href={'create/'} class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Create</Link>
+        <Link href={'create/'} className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Create</Link>
       </div>
 
     </main>
