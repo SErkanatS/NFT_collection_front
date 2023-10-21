@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-[80vh] flex-col items-center justify-between pt-24">
-      <div className="flex flex-col h-48 w-full items-center gap-4 justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+      <div className="flex flex-col h-48 w-full items-center gap-4 justify-center lg:static lg:h-auto lg:w-auto bg-none">
         {nftDataArray.length > 0 ?
           <div className=' grid grid-cols-2 md:grid-cols-3 gap-4 relative'>
             {nftDataArray.map((nftData, index) => (
